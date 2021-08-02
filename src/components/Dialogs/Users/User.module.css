@@ -1,0 +1,23 @@
+.dialogs__user {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 25px;
+  margin-right: 10px;
+  padding: 0 auto;
+}
+
+.dialogs__link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #69d0f8;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.dialogs__link.active {
+  background-color: rgba(105, 208, 248, 0.2);
+}
+
+.dialogs__link:hover {
+  background-color: rgba(105, 208, 248, 0.2);
+}

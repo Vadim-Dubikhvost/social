@@ -1,0 +1,56 @@
+.dialogs {
+	&__textinput {
+		width: 100%;
+		max-width: 100%;
+		//position: absolute;
+		//bottom: 0;
+		display: flex;
+		flex-direction: row;
+		margin-left: 25px;
+	}
+
+	&__messageBlock {
+		resize: none;
+
+		width: 85%;
+		height: 70px;
+		border-radius: 10px;
+	}
+
+	&__textarea {
+		resize: none;
+		background-color: rgba(105, 208, 248, 0.2);
+		width: 100%;
+		height: 70px;
+		border-radius: 10px;
+		padding: 20px;
+
+		font-family: "Lato", sans-serif;
+		font-weight: normal;
+		font-size: 14px;
+	}
+
+	&__textarea::-webkit-scrollbar {
+		width: 0;
+	}
+
+	&__send {
+		width: 25px;
+		height: 25px;
+		fill: rgb(105, 208, 248);
+		margin-bottom: 7px;
+	}
+
+	&__svg {
+		margin-left: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__button {
+		width: 25px;
+		height: 25px;
+		background-color: #fff;
+	}
+}

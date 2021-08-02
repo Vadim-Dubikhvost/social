@@ -1,0 +1,67 @@
+.user {
+	display: flex;
+	flex-direction: row;
+
+	&__photo {
+	}
+
+	&__img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+	}
+
+	&__block {
+		font-family: "Lato", sans-serif;
+		font-weight: normal;
+
+		margin-left: 15px;
+		width: 100%;
+
+		position: relative;
+
+		margin-bottom: 70px;
+	}
+
+	&__follow {
+		margin-top: 7px;
+		position: absolute;
+		right: 15px;
+	}
+
+	&__follow button {
+		background-color: rgba(248, 129, 129, 0.4);
+		padding: 7px;
+		font-size: 18px;
+		border-radius: 15px;
+	}
+}
+
+.about {
+	border: #69d0f8 solid 2px;
+	background-color: seashell;
+	border-radius: 15px;
+
+	height: 100px;
+
+	font-size: 18px;
+
+	padding: 15px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	&__location {
+	}
+
+	&__country {
+		margin-top: 8px;
+	}
+}

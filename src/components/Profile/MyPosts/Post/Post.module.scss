@@ -1,0 +1,41 @@
+.posts {
+	&__post {
+		margin-bottom: 80px;
+
+		display: flex;
+
+		flex-direction: row;
+		margin-left: 40px;
+	}
+
+	&__post:last-child {
+		margin-bottom: 0px;
+	}
+
+	&__postimage {
+		height: 40px;
+		width: 40px;
+		background-color: rgba(248, 129, 129, 0.233);
+		border-radius: 50%;
+		margin-right: 30px;
+	}
+
+	&__posttext {
+		max-width: 800px;
+		font-family: "Lato", sans-serif;
+		font-weight: normal;
+		font-size: 20px;
+
+		position: relative;
+	}
+
+	&__likes {
+		font-family: "Lato", sans-serif;
+		font-weight: normal;
+		font-size: 11px;
+
+		margin-top: 7px;
+		position: absolute;
+		right: 0;
+	}
+}

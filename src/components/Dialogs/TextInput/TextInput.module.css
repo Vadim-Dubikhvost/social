@@ -1,0 +1,61 @@
+.dialogs__textinput {
+  width: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 25px;
+}
+
+.dialogs__messageBlock {
+  resize: none;
+  width: 85%;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.dialogs__textarea {
+  resize: none;
+  background-color: rgba(105, 208, 248, 0.2);
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.dialogs__textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.dialogs__send {
+  width: 25px;
+  height: 25px;
+  fill: #69d0f8;
+  margin-bottom: 7px;
+}
+
+.dialogs__svg {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dialogs__button {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}

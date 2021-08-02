@@ -1,0 +1,40 @@
+.posts__post {
+  margin-bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 40px;
+}
+
+.posts__post:last-child {
+  margin-bottom: 0px;
+}
+
+.posts__postimage {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(248, 129, 129, 0.233);
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.posts__posttext {
+  max-width: 800px;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  position: relative;
+}
+
+.posts__likes {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-size: 11px;
+  margin-top: 7px;
+  position: absolute;
+  right: 0;
+}
