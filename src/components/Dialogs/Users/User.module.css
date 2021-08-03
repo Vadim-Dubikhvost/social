@@ -1,9 +1,8 @@
 .dialogs__user {
-  padding-bottom: 20px;
-  padding-top: 20px;
   padding-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-right: 10px;
-  padding: 0 auto;
 }
 
 .dialogs__link {
