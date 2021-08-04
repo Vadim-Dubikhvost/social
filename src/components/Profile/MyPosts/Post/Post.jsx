@@ -6,7 +6,7 @@ const Post = (props) => {
 	return (
 		<div className={css.posts__post}>
 			<div className={css.posts__postimage}>
-				<img src="#" alt="" />
+				{props.photoSmall && <img className={css.posts__photo} src={props.photoSmall} alt="" />}
 			</div>
 			<div className={css.posts__posttext}>
 				{props.message}

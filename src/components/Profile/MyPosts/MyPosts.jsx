@@ -7,14 +7,14 @@ import { Element } from '../../common/Forms/Forms';
 
 
 
-const MyPosts = React.memo(({ posts, addPost }) => {
+const MyPosts = React.memo(({ posts, addPost, profile }) => {
 
 	let addNewPost = async (values) => {
 		await addPost(values.newPost)
 		values.newPost = undefined;
 	}
 
-	let postsElements = posts.map(post => <Post message={post.message} likesCount={post.likesCount} key={post.id} />)
+	let postsElements = posts.map(post => <Post message={post.message} likesCount={post.likesCount} photoSmall={profile.photos.small} key={post.id} />)
 
 	return (
 		<div className={css.posts}>

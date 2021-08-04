@@ -1,4 +1,5 @@
 .profile {
+	margin-bottom: 70px;
 	&__img {
 		max-height: 200px;
 		width: 100%;
@@ -46,5 +47,36 @@
 
 	&__status div {
 		margin-right: 3px;
+	}
+
+	&__mainImg {
+		max-width: 200px;
+		max-height: 200px;
+		margin-bottom: 15px;
+	}
+}
+
+.input {
+	&__select {
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+	}
+
+	&__label {
+		cursor: pointer;
+		max-width: 70px;
+		height: 30px;
+		background-color: rgba(248, 129, 129, 0.4);
+		text-align: center;
+		margin-top: 15px;
+		font-family: "Lato", sans-serif;
+		font-weight: normal;
+		font-size: 18px;
+		padding: 5px;
+		margin-left: 40px;
+	}
+
+	&__labelText {
 	}
 }
